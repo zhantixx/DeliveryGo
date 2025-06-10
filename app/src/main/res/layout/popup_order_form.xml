@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:background="@drawable/background_white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Aty-joniniz" />
+
+    <EditText
+        android:id="@+id/etPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Telophone nomeriniz"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/etAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Jetkizu mekenjai" />
+
+    <EditText
+        android:id="@+id/etComment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Pikir" />
+
+    <Button
+        android:id="@+id/btnSubmitOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#3A70B4"
+        android:text="Tapsyrys jasau"
+        android:textColor="@android:color/white" />
+    <CheckBox
+        android:id="@+id/checkboxUseBonus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bonus paidalanu"
+        android:textColor="@color/black"
+        android:padding="8dp"/>
+
+    <EditText
+        android:id="@+id/etBonusInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Qoldanğyñyz keletın bonus sany"
+        android:inputType="number"
+        android:visibility="gone"
+        android:layout_marginTop="8dp"
+        android:padding="12dp"
+        android:background="@drawable/stroke_bg"
+        />
+
+
+</LinearLayout>

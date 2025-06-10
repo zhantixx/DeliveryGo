@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.PrivacyActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:padding="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="
+
+DeliveryGo ұсынған қосымшаға қош келдіңіз. Біз сіздің жеке өміріңізді қорғауға үлкен мән береміз және азық-түлік пен тауарларды жеткізу қызметтерін пайдалану кезінде қауіпсіз әрі ыңғайлы тәжірибе ұсынуға міндеттенеміз. Бұл құжат DeliveryGo қолданбасы арқылы сізден алынатын жеке ақпараттың қалай жиналатынын, қолданылатынын және қорғалатынын сипаттайды.
+
+1. Жиналатын ақпарат
+Біз келесі ақпараттарды жинауымыз мүмкін:
+
+Тіркелу, тапсырыс беру немесе кері байланыс ұсыну кезінде өз еркіңізбен беретін жеке мәліметтер: аты-жөніңіз, электрондық поштаңыз, телефон нөміріңіз, мекенжайыңыз және т.б.
+
+Қолданба арқылы жасалған әрекеттеріңізге қатысты техникалық ақпарат: құрылғы түрі, IP-адрес, орналасқан жер және трафик.
+
+Cookie файлдары және ұқсас технологиялар арқылы пайдаланушы әрекетін бақылау.
+
+2. Ақпаратты пайдалану мақсаты
+Біз жиналған деректерді келесі мақсаттарда пайдаланамыз:
+
+Жеткізу қызметін орындау және тіркелген қолданушы ретінде жүйеге қолжетімділікті қамтамасыз ету.
+
+Тапсырыстарыңызды өңдеу және тұтынушы сұраныстарына жауап беру.
+
+Жүйенің қауіпсіздігін қамтамасыз ету және ақауларды анықтау.
+
+Қызмет сапасын арттыру және жеке ұсыныстар ұсыну.
+
+3. Жеке ақпаратты жариялау
+Сіздің келісіміңізсіз жеке мәліметтеріңізді үшінші тұлғаларға бермейміз, тек келесі жағдайларды қоспағанда:
+
+Заңмен талап етілген жағдайда.
+
+Қызметті жеткізу үшін серіктес курьерлерге (мысалы: аты-жөн және мекенжай).
+
+4. Ақпаратты қорғау
+DeliveryGo сіздің мәліметтеріңіздің қауіпсіздігіне ерекше көңіл бөледі. Біз рұқсатсыз қолжетімділіктен, өзгерістен немесе жария етуден қорғау үшін техникалық және ұйымдастырушылық шараларды қолданамыз. Алайда интернеттегі ешбір дерек толықтай қауіпсіз бола алмайды.
+
+5. Қолдану шарттары
+DeliveryGo қосымшасын пайдалана отырып, сіз осы құпиялылық саясатының шарттарымен келісесіз. Егер келісім бермесеңіз, біздің қызметтерді қолданбауыңызды сұраймыз.
+
+6. Өзгерістер туралы ақпарат
+Құпиялылық саясатына өзгерістер енгізілуі мүмкін. Барлық жаңартулар осы бетте жарияланады. Өзгерістер күшіне енген соң қосымшаны әрі қарай пайдалану — жаңартылған саясатпен келісуді білдіреді.
+
+7. Байланыс ақпараты
+Қосымша сұрақтарыңыз болса немесе жеке деректерге қатысты сұраныстарыңыз туындаса, бізге келесі мекенжай арқылы хабарласыңыз:
+
+Бейбітшілік көшесі, 39, Astana, Қазақстан
+немесе support@deliverygo.kz
+"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/backBtn2"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Qūpialylyq saiasaty"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/backBtn2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/backBtn2"
+        app:layout_constraintTop_toTopOf="@+id/backBtn2" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
